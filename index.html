@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>NFT FIGMA</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cormorant+Garamond:wght@400;500&family=DM+Sans:wght@400;500&family=Domine:wght@400;500&family=Gabarito:wght@400;500;600&family=Heebo:wght@400;500;600&family=Lexend+Deca&family=Mulish:wght@400;500;600&family=Open+Sans:wght@400;500;600&family=Red+Hat+Display:wght@400;500;600&family=Roboto+Mono:wght@100;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header-box">
+          <img src="./images/logo.svg" alt="header logo" />
+
+          <form class="header-form">
+            <input
+              class="header-form__input"
+              type="text"
+              placeholder="Search Rolling"
+            />
+          </form>
+
+          <nav class="site-nav">
+            <ul class="site-nav__list">
+              <li class="site-nav__list-item">
+                <a class="site-nav__item-link" href="#">Explore</a>
+              </li>
+
+              <li class="site-nav__list-item">
+                <a class="site-nav__item-link" href="#">Activity</a>
+              </li>
+
+              <li class="site-nav__list-item">
+                <a class="site-nav__item-link" href="#">Feed</a>
+              </li>
+
+              <li class="site-nav__list-item">
+                <a class="site-nav__item-link" href="#">Bids</a>
+              </li>
+            </ul>
+          </nav>
+
+          <img src="./images/hero-run-logo.svg" alt="hero run logo" />
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-info">
+            <img
+              src="./images/hero-img.svg"
+              width="889"
+              height="490"
+              alt="hero logo"
+            />
+            <div class="hero-info__desc">
+              <h2 class="hero-info__desc-title">
+                The circle's pristine cleanliness
+              </h2>
+              <div class="current-user">
+                <img
+                  class="current-user__img"
+                  width="25px"
+                  height="25px"
+                  src="./images/hero-boy.svg"
+                  alt="hero boy img"
+                />
+                <h4 class="current-user__name">Tung Tran</h4>
+              </div>
+
+              <div class="auction">
+                <div class="auction-money">
+                  <h3>Current Bid</h3>
+                  <p>0.85 ETH</p>
+                  <span>$2,169.42</span>
+                </div>
+
+                <ul class="auction-time__list">
+                  <li class="auction-time__list-item">
+                    <p class="auction-time__item-time">3</p>
+                    <span>Hours</span>
+                  </li>
+
+                  <li class="auction-time__list-item">
+                    <p class="auction-time__item-time">16</p>
+                    <span>Minutes</span>
+                  </li>
+
+                  <li class="auction-time__list-item">
+                    <p class="auction-time__item-time">58</p>
+                    <span>Seconds</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="auction-btn">
+                <button class="auction-btn__bid">Place a bid</button>
+                <a class="auction-btn__link" href="#">View artwork</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AUCTIONS SECTION START -->
+
+      <section class="live-auctions">
+        <div class="container">
+          <h2 class="live-auctions__title">Live auctions 🔥</h2>
+
+          <div class="auction-info">
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/auction1.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">3D Soft Curves</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Esther Howard</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.85 ETH</h4>
+                </li>
+              </ul>
+            </div>
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/auction2.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">The mystery of the black</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Jenny Wilson</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.24 ETH</h4>
+                </li>
+              </ul>
+            </div>
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/auction3.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">Pink Cloud</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Esther Howard</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.85 ETH</h4>
+                </li>
+              </ul>
+            </div>
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/auction4.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">3D Ethereum</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Esther Howard</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.85 ETH</h4>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AUCTION SECTION END -->
+
+      <!-- FEATURED SECTION START -->
+
+      <section class="featured">
+        <div class="container">
+          <h2 class="featured-title">Featured ✨</h2>
+
+          <div class="auction-info">
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/featured1.svg"
+                alt="featured one img"
+              />
+              <h3 class="auction-info__card-title">3D Soft Curves</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Esther Howard</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.85 ETH</h4>
+                </li>
+              </ul>
+            </div>
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/featured2.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">The mystery of the black</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Jenny Wilson</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.24 ETH</h4>
+                </li>
+              </ul>
+            </div>
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/featured3.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">Pink Cloud</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Esther Howard</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.85 ETH</h4>
+                </li>
+              </ul>
+            </div>
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/featured4.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">3D Ethereum</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Esther Howard</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.85 ETH</h4>
+                </li>
+              </ul>
+            </div>
+
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/featured5.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">3D Soft Curves</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Esther Howard</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.85 ETH</h4>
+                </li>
+              </ul>
+            </div>
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/featured6.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">The mystery of the black</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Jenny Wilson</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.24 ETH</h4>
+                </li>
+              </ul>
+            </div>
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/featured7.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">Pink Cloud</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Esther Howard</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.85 ETH</h4>
+                </li>
+              </ul>
+            </div>
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/featured8.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">3D Ethereum</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Esther Howard</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.85 ETH</h4>
+                </li>
+              </ul>
+            </div>
+
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/auction1.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">3D Soft Curves</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Esther Howard</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.85 ETH</h4>
+                </li>
+              </ul>
+            </div>
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/auction2.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">The mystery of the black</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Jenny Wilson</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.24 ETH</h4>
+                </li>
+              </ul>
+            </div>
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/auction3.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">Pink Cloud</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Esther Howard</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.85 ETH</h4>
+                </li>
+              </ul>
+            </div>
+            <div class="auction-info__card">
+              <button class="auction-info__time-btn">01:27:46 left</button>
+              <img
+                class="auction-info__card-img"
+                width="312"
+                height="280"
+                src="./images/auction4.png"
+                alt="auction one img"
+              />
+              <h3 class="auction-info__card-title">3D Ethereum</h3>
+
+              <ul class="auction-info__list">
+                <li class="auction-info__item auction-info__userName">
+                  <img
+                    class="auction-info__item-img"
+                    width="25"
+                    height="25"
+                    src="./images/card-user1.svg"
+                    alt="card-user img"
+                  />
+                  <p class="auction-info__item-name">Esther Howard</p>
+                </li>
+
+                <li class="auction-info__item">
+                  <p class="auction-info__item-bid">Current Bid</p>
+                  <h4>0.85 ETH</h4>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button class="featured_btn">Load More</button>
+        </div>
+      </section>
+
+      <!-- FEATURED SECTION END -->
+
+      <!-- CREATOR SECTION START -->
+
+      <section class="creator">
+        <div class="container">
+          <h2 class="creator_title">Top Creators</h2>
+
+          <ul class="creator-list">
+            <li class="creator-list__item">
+              <img
+                src="./images/creator1.png"
+                width="312"
+                height="160"
+                alt="ceator img"
+              />
+
+              <ul class="creator-custom_list">
+                <li class="creator-custom__list-item">
+                  <img
+                    class="creator-custom__list-img"
+                    src="./images/hero-boy.svg"
+                    width="56"
+                    height="56"
+                    alt="boy img"
+                  />
+                </li>
+                <li class="creator-custom__list-item">
+                  <h4 class="creator-custom__title">Tung Tran</h4>
+                  <img
+                    class="creator-custom__img"
+                    src="./images/checked-logo.png"
+                    alt="checked-logo"
+                  />
+                  <p class="creator-custom__desc">
+                    Bad Artist, NFT Enthusiast, Metaverse Innovator Supporting
+                    #bitcoin since 2012.
+                  </p>
+                </li>
+              </ul>
+              <div class="creator-followers followers">
+                <span class="followers_info">3K Followers</span>
+                <button class="followers_btn">Follow</button>
+              </div>
+            </li>
+
+            <li class="creator-list__item">
+              <img
+                src="./images/creator2.png"
+                width="312"
+                height="160"
+                alt="ceator img"
+              />
+
+              <ul class="creator-custom_list">
+                <li class="creator-custom__list-item">
+                  <img
+                    class="creator-custom__list-img"
+                    src="./images/creator-logo2.png"
+                    width="56"
+                    height="56"
+                    alt="boy img"
+                  />
+                </li>
+                <li class="creator-custom__list-item">
+                  <h4 class="creator-custom__title">Wade Warren</h4>
+                  <img
+                    class="creator-custom__img"
+                    src="./images/checked-logo.png"
+                    alt="checked-logo"
+                  />
+                  <p class="creator-custom__desc">
+                    Bad Artist, NFT Enthusiast, Metaverse Innovator Supporting
+                    #bitcoin since 2012.
+                  </p>
+                </li>
+              </ul>
+              <div class="creator-followers followers">
+                <span class="followers_info">8K Followers</span>
+                <button class="followers_btn">Follow</button>
+              </div>
+            </li>
+
+            <li class="creator-list__item">
+              <img
+                src="./images/creator3.png"
+                width="312"
+                height="160"
+                alt="ceator img"
+              />
+
+              <ul class="creator-custom_list">
+                <li class="creator-custom__list-item">
+                  <img
+                    class="creator-custom__list-img"
+                    src="./images/creator-logo3.png"
+                    width="56"
+                    height="56"
+                    alt="boy img"
+                  />
+                </li>
+                <li class="creator-custom__list-item">
+                  <h4 class="creator-custom__title">Arlene McCoy</h4>
+                  <img
+                    class="creator-custom__img"
+                    src="./images/checked-logo.png"
+                    alt="checked-logo"
+                  />
+                  <p class="creator-custom__desc">
+                    Bad Artist, NFT Enthusiast, Metaverse Innovator Supporting
+                    #bitcoin since 2012.
+                  </p>
+                </li>
+              </ul>
+              <div class="creator-followers followers">
+                <span class="followers_info">650 Followers</span>
+                <button class="followers_btn">Follow</button>
+              </div>
+            </li>
+
+            <li class="creator-list__item">
+              <img
+                src="./images/creator4.png"
+                width="312"
+                height="160"
+                alt="ceator img"
+              />
+
+              <ul class="creator-custom_list">
+                <li class="creator-custom__list-item">
+                  <img
+                    class="creator-custom__list-img"
+                    src="./images/creator-logo4.png"
+                    width="56"
+                    height="56"
+                    alt="boy img"
+                  />
+                </li>
+                <li class="creator-custom__list-item">
+                  <h4 class="creator-custom__title">Dianne Russell</h4>
+                  <img
+                    class="creator-custom__img"
+                    src="./images/checked-logo.png"
+                    alt="checked-logo"
+                  />
+                  <p class="creator-custom__desc">
+                    Bad Artist, NFT Enthusiast, Metaverse Innovator Supporting
+                    #bitcoin since 2012.
+                  </p>
+                </li>
+              </ul>
+              <div class="creator-followers followers">
+                <span class="followers_info">1K Followers</span>
+                <button class="followers_btn">Follow</button>
+              </div>
+            </li>
+
+            <li class="creator-list__item">
+              <img
+                src="./images/creator1.png"
+                width="312"
+                height="160"
+                alt="ceator img"
+              />
+
+              <ul class="creator-custom_list">
+                <li class="creator-custom__list-item">
+                  <img
+                    class="creator-custom__list-img"
+                    src="./images/creator-logo4.png"
+                    width="56"
+                    height="56"
+                    alt="boy img"
+                  />
+                </li>
+                <li class="creator-custom__list-item">
+                  <h4 class="creator-custom__title">Savannah Nguyen</h4>
+                  <img
+                    class="creator-custom__img"
+                    src="./images/checked-logo.png"
+                    alt="checked-logo"
+                  />
+                  <p class="creator-custom__desc">
+                    Bad Artist, NFT Enthusiast, Metaverse Innovator Supporting
+                    #bitcoin since 2012.
+                  </p>
+                </li>
+              </ul>
+              <div class="creator-followers followers">
+                <span class="followers_info">238 Followers</span>
+                <button class="followers_btn">Follow</button>
+              </div>
+            </li>
+
+            <li class="creator-list__item">
+              <img
+                src="./images/creator2.png"
+                width="312"
+                height="160"
+                alt="ceator img"
+              />
+
+              <ul class="creator-custom_list">
+                <li class="creator-custom__list-item">
+                  <img
+                    class="creator-custom__list-img"
+                    src="./images/creator-logo3.png"
+                    width="56"
+                    height="56"
+                    alt="boy img"
+                  />
+                </li>
+                <li class="creator-custom__list-item">
+                  <h4 class="creator-custom__title">Jenny Wilson</h4>
+                  <img
+                    class="creator-custom__img"
+                    src="./images/checked-logo.png"
+                    alt="checked-logo"
+                  />
+                  <p class="creator-custom__desc">
+                    Bad Artist, NFT Enthusiast, Metaverse Innovator Supporting
+                    #bitcoin since 2012.
+                  </p>
+                </li>
+              </ul>
+              <div class="creator-followers followers">
+                <span class="followers_info">64 Followers</span>
+                <button class="followers_btn">Follow</button>
+              </div>
+            </li>
+
+            <li class="creator-list__item">
+              <img
+                src="./images/creator3.png"
+                width="312"
+                height="160"
+                alt="ceator img"
+              />
+
+              <ul class="creator-custom_list">
+                <li class="creator-custom__list-item">
+                  <img
+                    class="creator-custom__list-img"
+                    src="./images/creator-logo2.png"
+                    width="56"
+                    height="56"
+                    alt="boy img"
+                  />
+                </li>
+                <li class="creator-custom__list-item">
+                  <h4 class="creator-custom__title">Brooklyn Simmons</h4>
+                  <img
+                    class="creator-custom__img"
+                    src="./images/checked-logo.png"
+                    alt="checked-logo"
+                  />
+                  <p class="creator-custom__desc">
+                    Bad Artist, NFT Enthusiast, Metaverse Innovator Supporting
+                    #bitcoin since 2012.
+                  </p>
+                </li>
+              </ul>
+              <div class="creator-followers followers">
+                <span class="followers_info">2K Followers</span>
+                <button class="followers_btn">Follow</button>
+              </div>
+            </li>
+
+            <li class="creator-list__item">
+              <img
+                src="./images/creator4.png"
+                width="312"
+                height="160"
+                alt="ceator img"
+              />
+
+              <ul class="creator-custom_list">
+                <li class="creator-custom__list-item">
+                  <img
+                    class="creator-custom__list-img"
+                    src="./images/hero-boy.svg"
+                    width="56"
+                    height="56"
+                    alt="boy img"
+                  />
+                </li>
+                <li class="creator-custom__list-item">
+                  <h4 class="creator-custom__title">Theresa Webb</h4>
+                  <img
+                    class="creator-custom__img"
+                    src="./images/checked-logo.png"
+                    alt="checked-logo"
+                  />
+                  <p class="creator-custom__desc">
+                    Bad Artist, NFT Enthusiast, Metaverse Innovator Supporting
+                    #bitcoin since 2012.
+                  </p>
+                </li>
+              </ul>
+              <div class="creator-followers followers">
+                <span class="followers_info">127 Followers</span>
+                <button class="followers_btn">Follow</button>
+              </div>
+            </li>
+          </ul>
+
+          <button class="creator_btn">View All Creators</button>
+        </div>
+      </section>
+
+      <!-- CREATOR SECTION END -->
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+
+    <footer class="site-footer">
+      <div class="container">
+
+        <ul class="site-footer__list">
+          <li class="site-footer__list-item footer-item">
+            <p class="footer-item__text">Get the latest Rolling updates</p>
+
+            <form class="footer-item__form footer-form">
+              <input class="footer-form__input" type="text" placeholder="Enter Your Email">
+              <button class="footer-form__btn">Subscribe</button>
+            </form>
+
+          </li>
+
+          <li class="site-footer__list-item footer-item">
+            <h4 class="footer-item_title">Community</h4>
+
+            <ul class="footer-item__list">
+              <li>Community Guidelines</li>
+              <li>Roll Token</li>
+              <li>Discussion</li>
+            </ul>
+          </li>
+
+          <li class="site-footer__list-item footer-item">
+            <h4 class="footer-item_title">Rolling</h4>
+
+            <ul class="footer-item__list">
+              <li>Explore</li>
+              <li>Blog</li>
+              <li>About us</li>
+              <li>Become a partner</li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <hr class="site-footer__line">
+
+        <ul class="footer-networks__list">
+
+            <li class="footer-networks__list-item">
+              <ul>
+                <li>
+                  <img src="./images/Rolling-footer.png" width="81" height="24px" alt="logo img">
+                </li>
+                <li>
+                  Terms of Service
+                </li>
+                <li>
+                  Privacy
+                </li>
+              </ul>
+            </li>
+
+            <li class="footer-networks__list-item">
+              <i class='bx bxl-instagram'></i>
+              <i class='bx bxl-telegram'></i>
+              <i class='bx bxl-twitter'></i>
+              <i class='bx bxl-youtube'></i>
+            </li>
+        </ul>
+
+      </div>
+    </footer>
+
+    <!-- FOOTER END -->
+  </body>
+</html>
